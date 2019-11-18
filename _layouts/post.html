@@ -13,7 +13,7 @@ layout: default
 
 
   <div class="post-content container" itemprop="articleBody">
-    {{ content }}
+    {{ content | replace: '  \n', '<br />' }}
   </div>
 
 </article>

@@ -25,7 +25,7 @@ a { color: #03a4fb; text-decoration: none; }
 
 a:hover { color: #03a4fb !important; text-decoration: none !important; border-bottom: 1px dotted #03a4fb; }
 
-.post-list { text-align: center; }
+.post-list { text-align: left; }
 
 .post-box { padding-top: 2em; padding-bottom: 2em; }
 
@@ -33,9 +33,13 @@ a:hover { color: #03a4fb !important; text-decoration: none !important; border-bo
 
 .post-excerpt { color: white !important; padding-top: 0.5em; padding-bottom: 0.3em; }
 
-.post-title-main { text-align: center; color: #abc0ca !important; }
+.post-title-main { font-size: 43px !important; text-align: left; color: #abc0ca !important; }
 
 .post-content { font-size: 19px; text-align: justify; padding-bottom: 5em; }
+
+.page-content br { display: none; }
+
+.page-content p br { display: inline; }
 
 pre { background-color: black !important; border: none !important; border-radius: 0px !important; font-size: 20px !important; padding: 1.5em !important; color: white !important; }
 

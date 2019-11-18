@@ -67,7 +67,7 @@ a:hover{
 
 .post-list{
 
-    text-align: center;
+    text-align: left;
 
 }
 .post-box{
@@ -86,7 +86,8 @@ padding-top: 0.5em;
 padding-bottom: 0.3em;
 }
 .post-title-main{
-  text-align: center;
+  font-size: 43px !important;
+  text-align: left;
   color: #abc0ca !important;
 }
 .post-content{
@@ -94,6 +95,15 @@ padding-bottom: 0.3em;
   text-align: justify;
   padding-bottom: 5em;
 }
+
+.page-content br {
+  display: none;
+}
+
+.page-content p br {
+  display: inline;
+}
+
 pre{
 background-color: black !important;
 border:none !important;
