@@ -1,0 +1,16 @@
+### Project ###
+node_modules/
+dist/
+npm-debug.log
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VCode ###
+.vscode/
+
+### Misc ###
+.DS_Store
