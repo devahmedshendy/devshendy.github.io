@@ -19,3 +19,7 @@ url: "http://devahmedshendy.github.io" # the base hostname & protocol for your s
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - '.idea'
+  - '.git*'
